@@ -1,0 +1,41 @@
+
+#macro(foreachName $paramNames)
+#foreach($aParamName in $paramNames)#set($tmp=($paramNames.size()) - 1)#if($aParamName == $paramNames.get($tmp))$aParamName#else $aParamName,#end#end
+#end
+----------dao interface
+
+public $returnType ${methodType}$methodName($params) throws DAOException;
+
+----------dao iml
+
+@Override
+public $returnType ${methodType}$methodName($params) throws DAOException{
+   Map <String,Object> params = new HashMap <String, Object>();
+#foreach($aParamName in $paramNames)
+   params.put("$aParamName",$aParamName);
+#end
+   return selectFor$returnType("${methodType}$methodName",params);
+}
+
+----------dao test
+
+public void test${MethodType}$methodName() throws Exception {
+    $returnType result = ${daoName}DAO.${methodType}$methodName(#foreachName($paramNames));
+    Assert.assertNotNull(returnType);
+}
+
+---------manager interface
+public $returnType $managerPrefixName$methodName($params) throws ManagerException;
+
+--------manager iml
+@Override
+public $returnType $managerPrefixName$methodName($params) throws ManagerException {
+    try {
+        return ${daoName}DAO.${methodType}$methodName(#foreachName($paramNames));
+    } catch (DAOException e) {
+        throw new ManagerException(e);
+    }
+}
+
+
+

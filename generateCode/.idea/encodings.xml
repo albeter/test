@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/tool/PropertyObject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/tool/Tool.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/VipLotteryDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipLotteryDO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/IbatisVipLotteryDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/query/VipLotteryQuery.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../matrix-main-2/server/src/test/java/com/taobao/matrix/vip/dao/VipLotteryDAOTest.java" charset="GBK" />
+  </component>
+</project>
+

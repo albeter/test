@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c26ffa55-7f81-44b1-a7d8-28982f73e51a" name="Default" comment="" />
+    <ignored path="generateCode.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/java/com/taobao/matrix/qz/web/module/screen/home/BrandBrowse.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356587429670" ignored="false" />
+    <file path="/a.dummy" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369107520867" ignored="false" />
+    <file path="/BrandBrowse.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356586219331" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/manager/impl/CategoryBrandManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355809293871" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/ibatis/CategoryBrandSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355801930926" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/ibatis/IbatisCategoryBrandDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355808842395" ignored="false" />
+    <file path="/IbatisCategoryBrandDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355808841584" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/daointerface/CategoryBrandDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355808073081" ignored="false" />
+    <file path="/CategoryBrandDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355808073081" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/qz/exchange/dao/CategoryBrandDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355808507210" ignored="false" />
+    <file path="/CategoryBrandDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355808497482" ignored="false" />
+    <file path="/CategoryBrandManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355809222783" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/manager/CategoryBrandManager.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355809207306" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/query/CategoryBrandQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355809036056" ignored="false" />
+    <file path="/CategoryBrandQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355809023424" ignored="false" />
+    <file path="/CategoryBrandManager.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355809207306" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/ibatis/IbatisAwardOnlineGroupDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356319286908" ignored="false" />
+    <file path="/IbatisAwardOnlineGroupDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356319272953" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/ibatis/AwardOnlineGroupSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356319092076" ignored="false" />
+    <file path="/AwardOnlineGroupSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356319087022" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/daointerface/AwardOnlineGroupDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356318495659" ignored="false" />
+    <file path="/AwardOnlineGroupDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356314198689" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/qz/exchange/dao/AwardOnlineGroupDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356319672446" ignored="false" />
+    <file path="/AwardOnlineGroupDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356316114461" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/qz/exchange/domain/DOMock.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355816474196" ignored="false" />
+    <file path="/DOMock.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355813024159" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/manager/impl/AwardOnlineGroupManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356331447956" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/manager/AwardOnlineGroupManager.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990028086" ignored="false" />
+    <file path="/AwardOnlineGroupManager.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990002310" ignored="false" />
+    <file path="/AwardOnlineGroupManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990051254" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/ao/impl/DefaultCategoryHomeAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355818675039" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/ao/CategoryHomeAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355818661283" ignored="false" />
+    <file path="/DefaultCategoryHomeAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355818675039" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/java/com/taobao/matrix/qz/web/module/control/home/AllBrandAndHotBrand.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355818803844" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/java/com/taobao/matrix/qz/web/module/screen/home/BrandAwardOnPage.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356331574191" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/webapp/home/templates/screen/home/BrandBrowse.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355830999092" ignored="false" />
+    <file path="/BrandBrowse.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355830828554" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/webapp/home/templates/screen/home/brandBrowse2.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355881316448" ignored="false" />
+    <file path="/GenerateCode.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356088105302" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/service/online/impl/CategoryBrandServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356319776704" ignored="false" />
+    <file path="/CategoryBrandServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990090022" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/common/enumconstanse/ibatis/BrandHeadEnum.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355989889019" ignored="false" />
+    <file path="/BrandHeadEnum.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355989861021" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/task/impl/FiveMinutesTaskServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990314044" ignored="false" />
+    <file path="/FiveMinutesTaskServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990300312" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/resources/biz/biz-task.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990472484" ignored="false" />
+    <file path="/codeTemplate.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356086333214" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/dataobject/AwardOnlineGroupDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356317794486" ignored="false" />
+    <file path="/AwardOnlineGroupDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356317793614" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/query/AwardOnlineGroupQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356318780855" ignored="false" />
+    <file path="/AwardOnlineGroupQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356318780855" ignored="false" />
+    <file path="/BrandAwardOnPage.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356327796524" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/query/AwardDisplayItemQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356331157743" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/query/AwardQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356332567941" ignored="false" />
+    <file path="/Dummy.txt" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369033084335" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/webapp/home/templates/screen/home/brandBrowse.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356584642335" ignored="false" />
+    <file path="/brandBrowse.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356584615310" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/webapp/common/templates/macros.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/resources/biz/biz-cache.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/ibatis/AwardDisplayItemSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/ao/AwardDisplayItemAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/event/impl/DefaultAwardOperateListener.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/java/com/taobao/matrix/qz/web/module/screen/misc/Apply.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/qz/common/Constants.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/java/com/taobao/matrix/qz/web/module/screen/home/FullExchangeHome.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356583763941" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/manager/impl/AwardOnlineManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356583763941" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/ao/impl/DefaultAwardDisplayItemAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356335157531" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/ao/impl/DefaultFullExchangeAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356583763941" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/java/com/taobao/matrix/qz/web/module/screen/home/HomeNew.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356404446390" ignored="false" />
+    <file path="/HomeNew.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356404430815" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/webapp/home/templates/screen/home/newRaffleHome.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356485995406" ignored="false" />
+    <file path="/newRaffleHome.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356423154961" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/qz/common/enumconstanse/DiscountAwardOnlineSignEnum.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356511854022" ignored="false" />
+    <file path="/DiscountAwardOnlineSignEnum.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356511854022" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/manager/impl/DiscountAwardManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356583763941" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/qz/common/Switch.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364880386013" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/ibatis/IbatisDiscountAwardDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356589895520" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/task/impl/DiscountGMVTask.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356596596972" ignored="false" />
+    <file path="/DiscountGMVTask.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356596544796" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/.idea/workspace.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365649328850" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/exchange/dao/ibatis/ItemOnlineSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364783537861" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/ItemOnlineDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364783537861" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/IbatisItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364815523333" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/daointerface/ItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364788360756" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/query/ItemOnlineQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364866907501" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/ibatis/BaseIbatisDAOSupport.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364816938917" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/tddl/TddlSequenceFactory.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364784325030" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/ibatis/BaseIbatisDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364816938917" ignored="false" />
+    <file path="/BaseIbatisDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364817199466" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365590417853" ignored="false" />
+    <file path="/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364787237324" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/dao/ibatis/BaseIbatisDAOSupport.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364787103669" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/dao/ibatis/BaseIbatisDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364817201386" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/dao/tddl/TddlSequenceFactory.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364786597234" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/dao/DOBaseQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364817724793" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/dao/BaseDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364786651923" ignored="false" />
+    <file path="/fragment.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365589637993" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/common/dao/BaseQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364786807908" ignored="false" />
+    <file path="/BaseIbatisDAOSupport.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369118926962" ignored="false" />
+    <file path="/ItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364788339411" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/ItemOnlineSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364815522716" ignored="false" />
+    <file path="/do.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364888321206" ignored="false" />
+    <file path="/Tool.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364901122732" ignored="false" />
+    <file path="/IbatisCode.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368771818101" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/test/java/com/taobao/matrix/vip/dao/ItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364813526209" ignored="false" />
+    <file path="/ItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364813952921" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/ItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364815523333" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/resources/dal/biz-dao.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364958430045" ignored="false" />
+    <file path="/biz-dao.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364958417236" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/daointerface/VipItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364874956661" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipItemOnlineDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364870968556" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/IbatisVipItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364874956661" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipItemOnlineSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364874096424" ignored="false" />
+    <file path="/VipItemOnlineSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364873395670" ignored="false" />
+    <file path="/VipItemOnlineDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364870964602" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364815945098" ignored="false" />
+    <file path="/IbatisVipItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364874369505" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/DOBaseQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364817650809" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/qz/common/dao/ibatis/BaseIbatisDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364865932660" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/qz/common/dao/ibatis/BaseIbatisDAOSupport.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365590086519" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/matrix-exchange-base.iml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364866705044" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/query/VipItemOnlineQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365216772823" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365216003323" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/dao/VipItemOnlineTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364869401867" ignored="false" />
+    <file path="/VipItemOnlineTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364870229101" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/dao/VipItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364958854350" ignored="false" />
+    <file path="/VipItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364875201136" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/resources/dal/sql-map.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364957058393" ignored="false" />
+    <file path="/sql-map.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369032808760" ignored="false" />
+    <file path="/VipItemOnlineQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364872592648" ignored="false" />
+    <file path="/VipItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364874955780" ignored="false" />
+    <file path="E:/androidSDK/adt-bundle-windows-x86_64/adt-bundle-windows-x86_64/sdk/samples/android-10/untitled1/gen/com/example/untitled1/BuildConfig.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364877383998" ignored="false" />
+    <file path="/PropertyObject.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364881198901" ignored="false" />
+    <file path="/sqlMap.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364891979704" ignored="false" />
+    <file path="/interfaceDAO.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364980760338" ignored="false" />
+    <file path="/ibatisDAO.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364894787334" ignored="false" />
+    <file path="/query.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364895187731" ignored="false" />
+    <file path="/test.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369026170622" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipPromotionDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365590326565" ignored="false" />
+    <file path="/VipPromotionDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365586416123" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/query/VipPromotionQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365590326565" ignored="false" />
+    <file path="/VipPromotionQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364903807584" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/daointerface/VipPromotionDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364903890486" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/IbatisVipPromotionDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364903992719" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipPromotionSqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364952204750" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/dao/VipPromotionDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365590326565" ignored="false" />
+    <file path="/VipPromotionDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364953746303" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/VipPromotionDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364957912440" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/VipItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364954493732" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/ibatis/IbatisVipPromotionDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364954626999" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/ibatis/IbatisVipItemOnlineDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364954652763" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/resources/vip/VipPromotionDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364955045695" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/resources/vip/VipItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364955052545" ignored="false" />
+    <file path="/VipExchangeDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365215578883" ignored="false" />
+    <file path="/VipSponsorAwardDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364958612523" ignored="false" />
+    <file path="/VipSponsorAwardQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1364958639240" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/dao/VipSponsorAwardDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365216168318" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipSponsorAwardDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365215968752" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipSignRecordsDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365215968752" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipPromotionDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365215968752" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/core/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipExchangeDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365215968752" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipSignRecordsDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365216117079" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipSponsorAwardDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365216117079" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/VipExchangeDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365216117079" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/domain/Auction.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365219776339" ignored="false" />
+    <file path="/Auction.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365219776339" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/query/AuctionQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220233843" ignored="false" />
+    <file path="/AuctionQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365219736917" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/service/searchAuction.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365219931156" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/service/searchAuctionService.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220099083" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220022786" ignored="false" />
+    <file path="/searchAuctionService.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220616203" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/service/impl/SearchAuctionServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582990155" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/service/SearchAuctionService.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220934846" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/domain/SearchAuction.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220233466" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/tmp/SearchTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220249783" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/resources/bean/search-client.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365317317944" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/java/com/taobao/member/vipmanager/biz/search/SearchTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220249783" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/query/SearchAuctionQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220903281" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/service/AuctionSearchService.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220249783" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/service/impl/AuctionSearchServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220249783" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/service/impl/ServiceException.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220471085" ignored="false" />
+    <file path="/SearchAuctionServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582933984" ignored="false" />
+    <file path="/SearchAuctionService.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365220559585" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/dao/IcTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365323858415" ignored="false" />
+    <file path="/IcTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365323793121" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/resources/biz/biz-hsf-tmp.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365314902000" ignored="false" />
+    <file path="/biz-hsf-tmp.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365314513589" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/java/com/taobao/member/vipmanager/biz/search/SearchAcutionTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365322366499" ignored="false" />
+    <file path="/SearchAcutionTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365318897118" ignored="false" />
+    <file path="/search-client.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365317317944" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/bid/src/main/java/a/ibatis/IbatisCode.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365580965867" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/bid/src/main/java/tool/Tool.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365580806790" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/bid/src/main/java/tool/CodeTool.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365580884033" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/java/com/taobao/member/vipmanager/biz/search/SearchAuctionServiceTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365646513579" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/search/query/SearchConstant.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582240753" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/service/IcTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582338999" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/service/TagTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365643993881" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/vip/dao/VipExchangeDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582612399" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/VipExchangeDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582612399" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/test/java/com/taobao/matrix/qz/base/AbstractExchangeTransactionalTests.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582612399" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/query/VipExchangeQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365582612399" ignored="false" />
+    <file path="/SearchAuctionServiceTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365646471880" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/dataobject/PriceProperty.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365592030958" ignored="false" />
+    <file path="/PriceProperty.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365586286072" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/tjb/ao/impl/DefaultShowAuctionAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365586494515" ignored="false" />
+    <file path="/DefaultShowAuctionAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369015714149" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/java/com/taobao/member/vipmanager/biz/search/VipItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365589318579" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/java/com/taobao/member/base/AbstractExchangeTransactionalTests.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365589515213" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/resources/tddl/vip-dao.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365589162835" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365590161346" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/qz/common/Constants.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365590326565" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365591065492" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-biz/src/main/resources/dal/vip-dao.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365592321039" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/config/WEB-INF/webx.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365592549214" ignored="false" />
+    <file path="/webx.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365592368389" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main/vipmanager/vipmanager-web/src/test/java/com/taobao/member/dao/VipItemOnlineDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1365592822073" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/.idea/workspace.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369119585958" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/generateCode/IbatisCode.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770990454" ignored="false" />
+    <file path="/CodeTool.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368756379392" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/qz/coin/manager/handler/TradeSuccessLegacyHandler.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770497779" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/qz/privilege/service/impl/LimitLevelPrivilegeExecutor.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770531874" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/qz/privilege/service/impl/PrivilegeExecutorFactory.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770531874" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/qz/privilege/service/impl/LimitMedalPrivilegeExecutor.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770531874" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/qz/activity/executor/ActivityExecutorResultCode.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770531874" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/qz/privilege/manager/impl/PropertyCreator.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770531874" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/.idea/compiler.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369032595954" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/.idea/artifacts/matrix_exchange_war_war_exploded.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368770708243" ignored="false" />
+    <file path="/Dsdf.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368771401287" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main-2/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368782352635" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main-2/vipmanager-web/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368787139275" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main-2/vipmanager-web/src/main/java/com/taobao/member/vipmanager/web/module/screen/list/CategoryAuctions.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369015156536" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main-2/vipmanager-biz/src/main/resources/bean/search-client.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1368789759465" ignored="false" />
+    <file path="/CategoryAuctions.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369015156536" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main-2/vipmanager-biz/src/main/java/com/taobao/member/vipmanager/biz/tjb/ao/impl/DefaultShowAuctionAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369015721768" ignored="false" />
+    <file path="/VipLotteryDO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369115511344" ignored="false" />
+    <file path="/VipLotteryQuery.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369116704327" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/resources/dal/vip-dao.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369032595602" ignored="false" />
+    <file path="/vip-dao.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369032581390" ignored="false" />
+    <file path="$PROJECT_DIR$/../vip-main-2/vipmanager-web/src/main/java/com/taobao/member/vipmanager/web/module/screen/ajax/medal/HasMedal.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369018440228" ignored="false" />
+    <file path="/VipLotterySqlMap.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369119009984" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/resources/dal/sql-map.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369032808760" ignored="false" />
+    <file path="/VipLotteryDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369119420893" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/base/pom.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369029957047" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/base/server/src/main/resources/dal/sql-map.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369029843556" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/base/server/src/main/resources/dal/vip-dao.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369029843556" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/war/src/main/webapp/home/templates/screen/home/newRaffleHome.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369031848746" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/test/java/com/taobao/matrix/vip/dao/VipExchangeDAOTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369031884759" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/test/java/com/taobao/matrix/vip/service/TagTest.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369031889552" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/resources/client/keycenter-client-config.xml" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369031902747" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/vip/ao/VipLotteryAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369104477143" ignored="false" />
+    <file path="/VipLotteryAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369034017980" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/vip/ao/impl/DefaultVipLotteryAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369118355186" ignored="false" />
+    <file path="/DefaultVipLotteryAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369118342503" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/vip/manager/VipLotteryManager.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369117559828" ignored="false" />
+    <file path="/VipLotteryManager.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369117537852" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/server/src/main/java/com/taobao/matrix/vip/manager/impl/VipLotteryManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369118019903" ignored="false" />
+    <file path="/VipLotteryManagerImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369117968326" ignored="false" />
+    <file path="$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/qz/common/dao/ibatis/BaseIbatisDAOSupport.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369119518333" ignored="false" />
+    <file path="/IbatisVipLotteryDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369119193535" ignored="false" />
+    <file path="/VipLotteryDAO.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369119198029" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="generateCode" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="IbatisCode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/IbatisCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="24" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlMap.vm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/sqlMap.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="20" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8172043">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/test.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="892" selection-end="892" vertical-scroll-proportion="-8.275862">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VipLotterySqlMap.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dsdf.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/Dsdf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="29" selection-start="161" selection-end="187" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tool/PropertyObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/generateCode/awardOnlineGroup/AwardOnlineGroupDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/query.vm" />
+        <option value="$PROJECT_DIR$/src/generateCode/awardOnlineGroup/AwardOnlineGroupDAOTest.java" />
+        <option value="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipPromotionSqlMap.xml" />
+        <option value="$PROJECT_DIR$/src/generateCode/vipPromotion/VipPromotionDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/ibatisDAO.vm" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/interfaceDAO.vm" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/do.vm" />
+        <option value="$PROJECT_DIR$/src/main/java/tool/CodeTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tool/Tool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tool/PropertyObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/Dsdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/IbatisCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/test.vm" />
+        <option value="$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ibatis/sqlMap.vm" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="keepSourceFolders" value="false" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-238" />
+    <option name="y" value="161" />
+    <option name="width" value="1296" />
+    <option name="height" value="748" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="177c9c8e-8a56-4990-9c7d-9d8a3f8bd398">
+        <serverdata />
+      </server>
+      <server id="c2aa0097-44c5-4b41-8e7e-41658071c008">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="e6071ee0-968b-4c8a-8275-cbcc3fc78c67">
+        <serverdata />
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\generateCode\src\main\java\tool" />
+      <recent name="D:\project\generateCode\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\generateCode\src\generateCode\vipLottery" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IbatisCode">
+    <configuration default="false" name="GenerateCode" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GenerateCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="generateCode" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tool" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.taobao.matrix.generateCode.tool.Tool" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IbatisCode" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ibatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ibatis.IbatisCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="generateCode" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Dsdf" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ibatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ibatis.Dsdf" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="generateCode" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.GenerateCode" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Tool" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IbatisCode" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Dsdf" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.IbatisCode" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Dsdf" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Tool" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GenerateCode" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c26ffa55-7f81-44b1-a7d8-28982f73e51a" name="Default" comment="" />
+      <created>1354275839256</created>
+      <updated>1354275839256</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-238" y="161" width="1296" height="748" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246311" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24635333" sideWeight="0.9083192" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09168082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GenerateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/ibatisDAO.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="-1.3793104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/interfaceDAO.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="10" selection-start="851" selection-end="851" vertical-scroll-proportion="-22.758621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/do.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="-11.034483">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tool/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tool/PropertyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/Dsdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="161" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/test.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="892" selection-end="892" vertical-scroll-proportion="-8.275862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/IbatisCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="24" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/sqlMap.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="20" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8172043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

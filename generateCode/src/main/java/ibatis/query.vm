@@ -1,0 +1,24 @@
+
+
+import com.taobao.matrix.qz.common.domain.query.BaseQuery;
+
+
+import java.util.Date;
+import java.util.List;
+
+/**
+* User: $user
+* Date: $createTime
+*/
+public class ${tableName}Query extends BaseQuery {
+
+    private static final long serialVersionUID ;//fix me
+
+    private List<${tableName}DO> ${lowTableName}DOs;
+
+#foreach($po in $propertyObjects)
+    private $po.type $po.camelName ;
+
+#end
+
+}

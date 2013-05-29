@@ -1,0 +1,106 @@
+#macro(getExpression  $po)
+    #if($po.type == "String" )
+        #if($po.camelName == "isDeleted")
+${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)("y");
+        #elseif($po.camelName == "isDisplay")
+${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)("n");
+        #else
+${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)("$po.camelName222");
+        #end
+    #end
+    #if($po.type == "Long")
+${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)($Tool.getLong());
+    #end
+    #if($po.type == "Integer")
+${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)($Tool.getInteger());
+    #end
+    #if($po.type == "Date" && $po.camelName != "gmtCreate")
+${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)(new Date());
+    #end
+    #if($po.type == "BigDecimal")
+${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)(new BigDecimal("0.0005"));
+    #end
+#end
+
+import com.taobao.matrix.qz.base.AbstractExchangeTransactionalTests;
+import junit.framework.Assert;
+import java.util.Date;
+
+/**
+* User: $user
+* Date: $createTime
+*/
+public class ${tableName}DAOTest extends AbstractExchangeTransactionalTests {
+
+        private ${tableName}DAO ${lowTableName}DAO;
+
+        private ${tableName}DO ${lowTableName}DO;
+
+        private ${tableName}Query ${lowTableName}Query;
+
+        @Override
+        protected void onSetUpInTransaction() throws Exception {
+            ${lowTableName}DO = new ${tableName}DO();
+#foreach($po in $propertyObjects)
+#if($po.type == "String" )
+#if($po.camelName == "isDeleted")
+            ${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)("n");
+#elseif($po.camelName == "isDisplay")
+            ${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)("y");
+#else
+            ${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)("$po.camelName");
+#end
+#end
+#if($po.type == "Long")
+            ${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)($Tool.getLong());
+#end
+#if($po.type == "Integer")
+            ${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)($Tool.getInteger());
+#end
+#if($po.type == "Date" && $po.camelName != "gmtCreate")
+            ${lowTableName}DO.set$Tool.firstLetterUpper($po.camelName)(new Date());
+#end
+#end
+            ${lowTableName}DAO.insert${tableName}(${lowTableName}DO);
+
+            ${lowTableName}Query = new ${tableName}Query();
+            ${lowTableName}Query.set${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}(${lowTableName}DO.get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}());
+        }
+
+        @Override
+        protected String[] getConfigLocations() {
+            return new String[]{"dal/tddl-context.xml", "dal/biz-dao.xml"};
+        }
+
+
+        public void testInsert${tableName}() throws Exception {
+            ${lowTableName}DAO.select${tableName}(${lowTableName}Query);
+            Assert.assertTrue(${lowTableName}Query.get${tableName}DOs().get(0).get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}().equals(${lowTableName}DO.get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}()));
+        }
+
+        public void testSelect${tableName}() throws Exception {
+            ${lowTableName}DAO.select${tableName}(${lowTableName}Query);
+            Assert.assertTrue(${lowTableName}Query.get${tableName}DOs().get(0).get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}().equals(${lowTableName}DO.get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}()));
+            Integer i = ${lowTableName}DAO.count${tableName}(${lowTableName}Query);
+            Assert.assertTrue(${lowTableName}Query.getTotalItem().equals(i));
+        }
+
+        public void testCount${tableName}() throws Exception {
+            int i = ${lowTableName}DAO.count${tableName}(${lowTableName}Query);
+            Assert.assertTrue(i > 0);
+        }
+
+        public void testUpdate${tableName}() throws Exception{
+            ${tableName}Query query = ${lowTableName}DAO.select${tableName}(${lowTableName}Query);
+            ${lowTableName}DO.set${Tool.firstLetterUpper($propertyObjects.get(0).camelName)}(query.get${tableName}DOs().get(0).get${Tool.firstLetterUpper($propertyObjects.get(0).camelName)}());
+    #getExpression($propertyObjects.get(1))
+${lowTableName}DAO.update${tableName}(${lowTableName}DO);
+            ${lowTableName}Query.set${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}(${lowTableName}DO.get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}());
+            ${tableName}Query query2 = ${lowTableName}DAO.select${tableName}(${lowTableName}Query);
+            Assert.assertTrue(${lowTableName}DO.get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}().equals(query2.get${tableName}DOs().get(0).get${Tool.firstLetterUpper($propertyObjects.get(1).camelName)}()));
+        }
+
+        public void set${tableName}DAO(${tableName}DAO ${lowTableName}DAO) {
+            this.${lowTableName}DAO = ${lowTableName}DAO;
+        }
+}

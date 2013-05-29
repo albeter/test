@@ -1,0 +1,16 @@
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+* User: $user
+* Date: $createTime
+*/
+public class ${tableName}DO implements Serializable {
+
+private static final long serialVersionUID ;//fix me
+
+#foreach($po in $propertyObjects)
+    private $po.type $po.camelName;
+
+#end
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="${tableName}DAO">
+    <resultMap id="${tableName}ResultMap" class="com.taobao.matrix.xxxxxxx.${tableName}DO">
+    #foreach($po in $propertyObjects)
+        <result column="$po.sqlName" property="$po.camelName"/>
+    #end
+    </resultMap>
+    <sql id="allcolumns">$allcolumns</sql>
+
+    <sql id="${tableName}Condition">
+        <dynamic prepend="where">
+#foreach($po in $propertyObjects)
+            <isNotNull property="$po.camelName" prepend="and">
+                <![CDATA[
+        #if($po.sqlName == "gmt_create" || $po.sqlName=="gmt_modified")
+        $po.sqlName >= #$po.camelName#
+        #else
+        $po.sqlName = #$po.camelName# #end
+
+                ]]>
+            </isNotNull>
+#end
+        </dynamic>
+    </sql>
+
+    <insert id="insert$tableName">
+        <![CDATA[
+        insert into $sqlTableName
+        ]]>
+        (<include refid="allcolumns"/>)
+        <![CDATA[
+        values
+        ($insertStr)
+        ]]>
+        <selectKey resultClass="long" keyProperty="id" >
+            SELECT @@IDENTITY AS id
+        </selectKey>
+    </insert>
+
+    <select id="select$tableName" resultMap="${tableName}ResultMap">
+        select
+        <include refid="allcolumns"/>
+        from $sqlTableName
+        <include refid="${tableName}Condition"/>
+        <isNotNull property="startRow">
+            <![CDATA[
+            limit #startRow#, #pageSize#
+            ]]>
+        </isNotNull>
+    </select>
+
+    <select id="count$tableName" resultClass="java.lang.Integer">
+        select
+        count($propertyObjects.get(0).camelName)
+        from
+        $sqlTableName
+        <include refid="${tableName}Condition"/>
+    </select>
+
+    <update id="update$tableName">
+        update  $sqlTableName
+        set
+#foreach($po in $propertyObjects)
+#if($po.camelName != "gmtCreate")
+                <isNotNull property="$po.camelName">
+                    <![CDATA[
+                    $po.sqlName = #$po.camelName#,
+                    ]]>
+                </isNotNull>
+#end
+#end
+        gmt_modified = now()
+        where
+        $propertyObjects.get(0).sqlName=#$propertyObjects.get(0).camelName#
+    </update>
+
+</sqlMap>

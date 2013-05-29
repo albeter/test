@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="VipExchangeDAO">
+    <resultMap id="VipExchangeResultMap" class="com.taobao.matrix.xxxxxxx.VipExchangeDO">
+            <result column="id" property="id"/>
+            <result column="seller_id" property="sellerId"/>
+            <result column="award_id" property="awardId"/>
+            <result column="award_name" property="awardName"/>
+            <result column="award_detail_url" property="awardDetailUrl"/>
+            <result column="award_pic_url" property="awardPicUrl"/>
+            <result column="rate" property="rate"/>
+            <result column="total_count" property="totalCount"/>
+            <result column="is_deleted" property="isDeleted"/>
+            <result column="is_display" property="isDisplay"/>
+            <result column="start_time" property="startTime"/>
+            <result column="end_time" property="endTime"/>
+            <result column="left_count" property="leftCount"/>
+            <result column="legacy_cost" property="legacyCost"/>
+            <result column="activity_id" property="activityId"/>
+            <result column="activity_detail_id" property="activityDetailId"/>
+        </resultMap>
+    <sql id="allcolumns">id,seller_id,award_id,award_name,award_detail_url,award_pic_url,rate,total_count,is_deleted,is_display,start_time,end_time,left_count,legacy_cost,activity_id,activity_detail_id</sql>
+
+    <sql id="VipExchangeCondition">
+        <dynamic prepend="where">
+            <isNotNull property="id" prepend="and">
+                <![CDATA[
+                id = #id# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="sellerId" prepend="and">
+                <![CDATA[
+                seller_id = #sellerId# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="awardId" prepend="and">
+                <![CDATA[
+                award_id = #awardId# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="awardName" prepend="and">
+                <![CDATA[
+                award_name = #awardName# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="awardDetailUrl" prepend="and">
+                <![CDATA[
+                award_detail_url = #awardDetailUrl# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="awardPicUrl" prepend="and">
+                <![CDATA[
+                award_pic_url = #awardPicUrl# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="rate" prepend="and">
+                <![CDATA[
+                rate = #rate# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="totalCount" prepend="and">
+                <![CDATA[
+                total_count = #totalCount# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="isDeleted" prepend="and">
+                <![CDATA[
+                is_deleted = #isDeleted# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="isDisplay" prepend="and">
+                <![CDATA[
+                is_display = #isDisplay# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="startTime" prepend="and">
+                <![CDATA[
+                start_time = #startTime# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="endTime" prepend="and">
+                <![CDATA[
+                end_time = #endTime# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="leftCount" prepend="and">
+                <![CDATA[
+                left_count = #leftCount# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="legacyCost" prepend="and">
+                <![CDATA[
+                legacy_cost = #legacyCost# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="activityId" prepend="and">
+                <![CDATA[
+                activity_id = #activityId# 
+                ]]>
+            </isNotNull>
+            <isNotNull property="activityDetailId" prepend="and">
+                <![CDATA[
+                activity_detail_id = #activityDetailId# 
+                ]]>
+            </isNotNull>
+        </dynamic>
+    </sql>
+
+    <insert id="insertVipExchange">
+        <![CDATA[
+        insert into vip_exchange
+        ]]>
+        (<include refid="allcolumns"/>)
+        <![CDATA[
+        values
+        (#id#,#sellerId#,#awardId#,#awardName#,#awardDetailUrl#,#awardPicUrl#,#rate#,#totalCount#,#isDeleted#,#isDisplay#,#startTime#,#endTime#,#leftCount#,#legacyCost#,#activityId#,#activityDetailId#)
+        ]]>
+    </insert>
+
+    <select id="selectVipExchange" resultMap="VipExchangeResultMap">
+        select
+        <include refid="allcolumns"/>
+        from vip_exchange
+        <include refid="VipExchangeCondition"/>
+        <isNotNull property="startRow">
+            <![CDATA[
+            limit #startRow#, #pageSize#
+            ]]>
+        </isNotNull>
+    </select>
+
+    <select id="countVipExchange" resultClass="java.lang.Integer">
+        select
+        count(id)
+        from
+        vip_exchange
+        <include refid="VipExchangeCondition"/>
+    </select>
+
+    <update id="updateVipExchange">
+        update  vip_exchange
+        set
+                <isNotNull property="id">
+                    <![CDATA[
+                    id = #id#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="sellerId">
+                    <![CDATA[
+                    seller_id = #sellerId#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="awardId">
+                    <![CDATA[
+                    award_id = #awardId#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="awardName">
+                    <![CDATA[
+                    award_name = #awardName#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="awardDetailUrl">
+                    <![CDATA[
+                    award_detail_url = #awardDetailUrl#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="awardPicUrl">
+                    <![CDATA[
+                    award_pic_url = #awardPicUrl#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="rate">
+                    <![CDATA[
+                    rate = #rate#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="totalCount">
+                    <![CDATA[
+                    total_count = #totalCount#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="isDeleted">
+                    <![CDATA[
+                    is_deleted = #isDeleted#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="isDisplay">
+                    <![CDATA[
+                    is_display = #isDisplay#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="startTime">
+                    <![CDATA[
+                    start_time = #startTime#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="endTime">
+                    <![CDATA[
+                    end_time = #endTime#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="leftCount">
+                    <![CDATA[
+                    left_count = #leftCount#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="legacyCost">
+                    <![CDATA[
+                    legacy_cost = #legacyCost#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="activityId">
+                    <![CDATA[
+                    activity_id = #activityId#,
+                    ]]>
+                </isNotNull>
+                <isNotNull property="activityDetailId">
+                    <![CDATA[
+                    activity_detail_id = #activityDetailId#,
+                    ]]>
+                </isNotNull>
+        gmt_modified = now()
+        where
+        id=#id#
+    </update>
+
+</sqlMap>

@@ -1,0 +1,41 @@
+
+import com.taobao.matrix.ddal.engine.DAOException;
+
+/**
+* User: $user
+* Date: $createTime
+*/
+public interface ${tableName}DAO {
+
+    /**
+    * 插入${lowTableName}DO
+    * @param ${lowTableName}DO ${lowTableName}DO
+    * @throws DAOException
+    */
+    public void insert${tableName}(${tableName}DO ${lowTableName}DO) throws DAOException;
+
+    /**
+    * 查询${lowTableName}DOs
+    * @param ${lowTableName}Query ${lowTableName}Query
+    * @return ${lowTableName}Query
+    * @throws DAOException
+    */
+    public ${tableName}Query select${tableName}(${tableName}Query ${lowTableName}Query) throws DAOException;
+
+    /**
+    *  查询记录的数量
+    * @param ${lowTableName}Query ${lowTableName}Query
+    * @return int
+    * @throws DAOException
+    */
+    public int count${tableName}(${tableName}Query ${lowTableName}Query) throws DAOException ;
+
+    /**
+    *  根据$propertyObjects.get(0).camelName 来更新${lowTableName}DO
+    * @param  ${lowTableName}DO ${lowTableName}DO
+    * @return int
+    * @throws DAOException
+    */
+    public int update${tableName}(${tableName}DO ${lowTableName}DO) throws DAOException ;
+
+}

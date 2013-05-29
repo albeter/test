@@ -1,0 +1,46 @@
+
+
+import com.taobao.matrix.ddal.engine.DAOException;
+import com.taobao.matrix.qz.common.dao.ibatis.BaseIbatisDAOSupport;
+import java.util.List;
+
+/**
+* User: $user
+* Date: $createTime
+*/
+public class Ibatis${tableName}DAO extends BaseIbatisDAOSupport implements ${tableName}DAO {
+
+    @Override
+    public void insert${tableName}(${tableName}DO ${lowTableName}DO) throws DAOException {
+        insert("insert${tableName}", ${lowTableName}DO);
+    }
+
+    @Override
+    public ${tableName}Query select${tableName}(${tableName}Query ${lowTableName}Query) throws DAOException {
+        int count = count${tableName}(${lowTableName}Query);
+        ${lowTableName}Query.setTotalItem(count);
+        List<${tableName}DO> results = selectForList("select${tableName}", ${lowTableName}Query);
+        ${lowTableName}Query.set${tableName}DOs(results);
+        return ${lowTableName}Query;
+    }
+
+    @Override
+    public int count${tableName}(${tableName}Query ${lowTableName}Query) throws DAOException {
+        Integer count = (Integer)selectForObject("count${tableName}", ${lowTableName}Query);
+        return count == null ? 0 : count;
+    }
+
+    @Override
+    public int update${tableName}(${tableName}DO ${lowTableName}DO) throws DAOException {
+        return update("update${tableName}", ${lowTableName}DO);
+    }
+}
+
+
+
+
+
+
+
+
+
